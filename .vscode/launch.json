@@ -6,8 +6,9 @@
     "configurations": [
         {
             "name": "tap-msal",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
+            "python": "${command:python.interpreterPath}",
             "cwd": "${workspaceFolder}",
             "program": "tap_msal",
             "justMyCode": false,
